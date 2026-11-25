@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sagar Shelke: cloud, observability, FinOps and data portfolio">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<title>Sagar Shelke Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&display=swap">
+<style>
+body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+/* layout: hero + video, pinned sideways career reel, grids */
+:root{color-scheme:dark;--bg:#0e1a2b;--panel:#15253b;--line:#27405f;--fg:#eaf2fb;--mute:#a4b8d0;--sig:#5be3c0;--amb:#ffb547}
+html{scroll-behavior:smooth}body{background:var(--bg);color:var(--fg);font:16px/1.65 Inter,system-ui,sans-serif}
+.w{max-width:1080px;margin:auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:'Space Grotesk',system-ui,sans-serif;line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,8vw,5.4rem);letter-spacing:-.02em}h2{font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:28px}
+a{color:var(--sig)}:focus-visible{outline:2px solid var(--amb);outline-offset:3px}
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-block:20px}.logo{width:52px;height:52px}
+nav div{display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--mute);text-decoration:none}
+header{padding-block:32px 24px}header p{max-width:60ch;color:var(--mute);font-size:1.1rem}.tag{color:var(--sig);font-weight:600}
+.btn,button{display:inline-block;background:var(--sig);color:var(--bg);border:1px solid var(--sig);border-radius:6px;padding:11px 20px;font:600 15px Inter,sans-serif;cursor:pointer;text-decoration:none;margin:0 8px 8px 0}
+.alt{background:transparent;color:var(--sig)}
+video{display:block;width:100%;aspect-ratio:16/9;border:1px solid var(--line);border-radius:10px;margin-top:24px}
+section{padding-block:72px;scroll-margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;border-block:1px solid var(--line);padding-block:28px}.stats b{display:block;font:700 2.4rem 'Space Grotesk',sans-serif;color:var(--amb)}.stats span{color:var(--mute)}
+#journey{padding-block:40px}.track{display:flex;flex-direction:column;gap:20px}
+.reel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:10px}.reel ul{margin:6px 0;padding-left:18px}.when{color:var(--amb);margin:0;font-weight:600}.co{color:var(--mute);margin:0}.n{margin-top:auto;color:var(--mute);font-size:13px}
+.pinned #journey{padding:0}.pinned .stick{position:sticky;top:env(safe-area-inset-top,0px);height:100vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.pinned .track{flex-direction:row;width:max-content;will-change:transform}.pinned .reel{width:min(440px,80vw)}
+.bar{height:3px;background:var(--line);margin-top:28px;display:none}.bar i{display:block;height:100%;background:var(--sig);width:0}.pinned .bar{display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px}.card{border:1px solid var(--line);border-radius:10px;padding:24px}.card p{color:var(--mute)}small{color:var(--sig);font-size:13px}
+dl{margin:0}dl div{display:grid;grid-template-columns:220px 1fr;gap:6px 20px;border-top:1px solid var(--line);padding-block:16px}dt{font-weight:600;color:var(--sig)}dd{margin:0}
+@media(max-width:600px){dl div{grid-template-columns:1fr}}
+.copy{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}.copy span{user-select:all;font-size:1.15rem;overflow-wrap:anywhere}
+footer{color:var(--mute);font-size:13px;padding-block:24px;border-top:1px solid var(--line)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="w"><nav><svg class="logo" aria-label="SS logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" rx="26" fill="#0E1A2B"/><path d="M18 78 L36 78 L48 42 L62 88 L76 30 L86 60 L102 60" fill="none" stroke="#5BE3C0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="102" cy="60" r="7" fill="#FFB547"/><text x="60" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="17" letter-spacing="5" fill="#EAF2FB">SS</text></svg>
+<div><a href="#journey">Experience</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+<header><p class="tag">Cloud · Observability · FinOps · Data</p><h1>Sagar Shelke</h1>
+<p>I connect cloud operations with data. I automate and monitor cloud systems, and turn operational and spend data into dashboards teams can act on.</p>
+<a class="btn" href="#contact">Contact me</a><a class="btn alt" href="https://www.linkedin.com/in/sagar-shelke-6500abc/" target="_blank" rel="noopener">LinkedIn</a>
+<video id="v" muted autoplay loop playsinline controls poster="poster.jpg" aria-label="Silent intro video summarizing Sagar Shelke's experience"><source src="intro.mp4" type="video/mp4"><source src="intro.webm" type="video/webm"></video></header>
+<div class="stats"><div><b>$100M+</b><span>client spend data classified and analyzed</span></div><div><b>Since 2020</b><span>working in data, analytics and cloud operations</span></div><div><b>AWS</b><span>Certified Cloud Practitioner (CLF-C02)</span></div></div></div>
+<div id="wrap"><section id="journey"><div class="stick"><div class="w" style="width:100%;box-sizing:border-box"><h2>Career reel</h2><div class="track" id="track"><article class="reel"><p class="when">Dec 2025 – Present</p><h3>Support Escalation Engineer</h3><p class="co">Persistent Systems · Cloud Automation & Observability</p><ul><li>Embedded in the QAD Cloud Automation Team to improve production reliability</li><li>Automated configuration deployments with SaltStack and Rundeck</li><li>Built CloudWatch monitoring with VPN alerting, SNS and PagerDuty</li><li>Ran root cause analysis on critical production issues</li></ul><span class="n">1 / 5</span></article><article class="reel"><p class="when">Apr – Nov 2025</p><h3>Engineering Operations Data Analyst</h3><p class="co">QAD India</p><ul><li>Built Icinga + Elasticsearch service health dashboards</li><li>Automated Private Cloud billing data ingestion for CloudZero with Python</li><li>Piped SonarQube metrics into Power BI with custom DAX</li><li>Maintained GCP ETL pipelines feeding Looker Studio</li></ul><span class="n">2 / 5</span></article><article class="reel"><p class="when">Aug 2023 – Apr 2025</p><h3>Supply Chain Data Analyst</h3><p class="co">John Bean Technologies (JBT)</p><ul><li>Analyzed global spend on engineering materials</li><li>Forecast spend with regression and moving averages</li><li>Ran Excess & Obsolete analysis with ABC-XYZ classification</li><li>Built Power BI dashboards for stock visibility</li></ul><span class="n">3 / 5</span></article><article class="reel"><p class="when">Jul 2021 – Jul 2023</p><h3>Data Analyst, Supply Chain Data & Analytics</h3><p class="co">Wood Mackenzie</p><ul><li>Classified and analyzed $100M+ in client spend data</li><li>Published Power BI spend and procurement dashboards</li><li>Worked with US and EMEA stakeholders</li><li>Twice received “Pat on the Back” awards</li></ul><span class="n">4 / 5</span></article><article class="reel"><p class="when">Dec 2020 – Jun 2021</p><h3>Data Analyst</h3><p class="co">Verificient Solutions</p><ul><li>Monitored live examination data for ProctorTrack</li><li>Built daily reports in Excel and Power BI</li><li>Resolved live issues with development teams</li></ul><span class="n">5 / 5</span></article></div><div class="bar"><i id="fill"></i></div></div></div></section></div>
+<div class="w"><section id="work"><h2>Selected work at QAD India</h2><div class="grid"><div class="card rise"><h3>Observability dashboards</h3><p>Real-time service health, alert frequency, availability trends and SLO tracking.</p><small>Icinga · Elasticsearch</small></div><div class="card rise"><h3>Cloud billing pipelines</h3><p>Automated Private Cloud billing data ingestion with XML and YAML processing.</p><small>Python · CloudZero</small></div><div class="card rise"><h3>Code quality reporting</h3><p>Pipeline from SonarQube REST APIs to reliability, coverage, security and severity dashboards.</p><small>Python · Power BI · DAX</small></div><div class="card rise"><h3>Utilization analytics</h3><p>SQL staging tables and automated workflows behind heatmaps and time-series dashboards.</p><small>GCP · SQL · Looker Studio</small></div></div></section>
+<section id="skills"><h2>Skills</h2><dl><div class="rise"><dt>Cloud</dt><dd>AWS (EC2, CloudWatch, SNS, VPC, S3, Cost Explorer), GCP (BigQuery, Buckets)</dd></div><div class="rise"><dt>Observability</dt><dd>Grafana, Prometheus, Icinga, Elasticsearch, PagerDuty</dd></div><div class="rise"><dt>Automation and DevOps</dt><dd>SaltStack, Rundeck, SonarQube, Shell scripting, GitLab, Git</dd></div><div class="rise"><dt>Data and BI</dt><dd>Power BI, Tableau, Looker Studio, SQL, Excel</dd></div><div class="rise"><dt>Programming</dt><dd>Python, Bash</dd></div><div class="rise"><dt>AI tools</dt><dd>GitHub Copilot, Cursor AI, OpenAI APIs</dd></div><div class="rise"><dt>Practices</dt><dd>Incident management, RCA, FinOps, prompt engineering</dd></div></dl></section>
+<section><h2>Education and learning</h2><dl><div><dt>2015 – 2019</dt><dd>B.Tech in Information Technology, COEP Technological University, Pune</dd></div><div><dt>Certification</dt><dd>AWS Certified Cloud Practitioner (CLF-C02)</dd></div><div><dt>In progress</dt><dd>AWS Solutions Architect Associate</dd></div><div><dt>Courses</dt><dd>Tableau 2022 A-Z (Udemy), Complete Python Developer in 2023 (Zero to Mastery), Data Literacy: Essentials of Power BI (Pluralsight)</dd></div><div><dt>Community, 2018 – 2020</dt><dd>Center and Project Coordinator at Bhumi, Pune. Supported an event with 2500+ participants. Awarded “Changemaker of the Year 2018-19”.</dd></div></dl></section>
+<section id="contact"><h2>Let's talk</h2><div class="copy"><span id="em">shelkesagar6500@gmail.com</span><button type="button" id="cp">Copy email</button></div>
+<div class="copy"><a href="https://www.linkedin.com/in/sagar-shelke-6500abc/" target="_blank" rel="noopener">linkedin.com/in/sagar-shelke-6500abc</a></div></section>
+<footer>© 2026 Sagar Shelke</footer></div>
+<script>
+const R=matchMedia('(prefers-reduced-motion: reduce)').matches,W=document.getElementById('journey'),T=document.getElementById('track'),F=document.getElementById('fill');let dist=0;
+function size(){document.body.classList.remove('pinned');W.style.height='';T.style.transform='';if(R||innerWidth<760||innerHeight<620)return;document.body.classList.add('pinned');dist=Math.max(0,T.scrollWidth-T.parentElement.clientWidth+40);W.style.height=(innerHeight+dist)+'px';move()}
+function move(){if(!document.body.classList.contains('pinned'))return;const p=Math.min(1,Math.max(0,-W.getBoundingClientRect().top/(dist||1)));T.style.transform=`translateX(${-p*dist}px)`;F.style.width=p*100+'%'}
+addEventListener('scroll',move,{passive:true});addEventListener('resize',size);size();document.fonts&&document.fonts.ready.then(size);
+if(!R){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.animate([{opacity:.2,transform:'translateY(36px)'},{opacity:1,transform:'none'}],{duration:600,easing:'ease-out'});o.unobserve(e.target)}}));document.querySelectorAll('.rise,.pinned-off .reel,.reel').forEach(e=>o.observe(e))}
+if(R){const v=document.getElementById('v');v.removeAttribute('autoplay');v.pause()}
+const b=document.getElementById('cp');b.onclick=()=>{const s=()=>{getSelection().selectAllChildren(document.getElementById('em'));b.textContent='Selected, now copy'};navigator.clipboard?navigator.clipboard.writeText('shelkesagar6500@gmail.com').then(()=>b.textContent='Copied').catch(s):s()};
+</script>
+</body>
+</html>
